@@ -1,0 +1,40 @@
+{
+  "name": "smatat-mp",
+  "version": "0.0.1",
+  "description": "An RPG survival game.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --port 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhhhhaaaa/Smatat-Mp.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hhhhhaaaa/Smatat-Mp/issues"
+  },
+  "homepage": "https://github.com/hhhhhaaaa/Smatat-Mp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.13.5",
+    "@babylonjs/core": "^4.2.0",
+    "@babylonjs/inspector": "^4.2.0",
+    "astroturf": "^0.10.5",
+    "babel-loader": "^8.2.2",
+    "babylon-file-loader": "^0.2.1",
+    "babylonjs-loaders": "^4.2.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.2.0",
+    "webpack": "^5.24.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
